@@ -1,0 +1,69 @@
+# bad gem etiquette, man
+.idea
+.ruby-version
+.ruby-gemset
+ruby-version
+ruby-gemset
+.rvmrc
+Gemfile.lock
+
+## MAC OS
+.DS_Store
+
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.sw[pon]
+
+## OSX
+.DS_Store
+nohup.out
+
+## Cucumber
+
+rerun.txt
+
+## rcov
+coverage.data
+coverage/*
+
+## TEST APP
+pkg/
+spec/mock_upload_directory
+
+## PROJECT::GENERAL
+coverage
+rdoc
+/.bundle
+tmp
+
+*.log
+*~
+
+
+.project
+.buildpath
+
+/.yardoc
+/doc
+
+## PROJECT::SPECIFIC
+
+.byebug_history
+
+## Carried over from hyrax-models (RIP)
+*.gem
+*.rbc
+.config
+InstalledFiles
+_yardoc
+lib/bundler/man
+spec/reports
+/spec/examples.txt
