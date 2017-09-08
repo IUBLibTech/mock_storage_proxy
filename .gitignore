@@ -6,6 +6,10 @@ ruby-version
 ruby-gemset
 .rvmrc
 Gemfile.lock
+ 
+# Mock storage working directories
+./storage/queue/*
+./storage/cache/*
 
 ## MAC OS
 .DS_Store
